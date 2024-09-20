@@ -1,0 +1,15 @@
+<?php
+
+# Microframework Axis
+
+# Time start
+$start_time = microtime(true);
+
+# Domain
+define('BASE', 		'/');
+define('DOMAIN',	'code.mfwks.com'); # [config]
+define('SITE', 		'https://' . DOMAIN);
+
+# Application Directories
+define('WEB',		__DIR__ . '/');
+define('APP', 		WEB . 'app/');
